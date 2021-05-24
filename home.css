@@ -1,0 +1,85 @@
+html, body { 
+  padding: 0;
+  margin: 0
+}
+
+body {
+  font-size: 62.5%;
+  font-family: apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  line-height: 1.5;
+  text-align: center;
+}
+
+header { 
+  padding: 3.4rem 0 2.0rem;
+}
+
+.form-header {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -.5px;
+}
+
+.container {}
+
+form {
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  background-color: #f1f1f1;
+  padding: 2rem;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+form .group label {
+  font-size: 1rem;
+  margin-bottom: .7rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+form .group .form-control {
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+  border: .5px solid #e1e4e8;
+  font-size: 1rem;
+  padding: .5rem 1.2rem;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #e4e1e8;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 0 rgba(225, 228, 232, 0.2);
+  outline: none;
+}
+
+form .form_submit {
+  padding: .5rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 6px;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: #2ea44f;
+  border:1px solid rgba(27,31,35,.15);
+  box-shadow: 0 1px 0 rgba(27,31,35,.1), 
+              inset 0 1px 0 hsla(0,0%,100%,0.03);
+  transition: .2s cubic-bezier(.3,0,.5,1);  
+  transition-property: color,border-color,background-color;
+}
