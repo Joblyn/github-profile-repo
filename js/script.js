@@ -1,9 +1,8 @@
 const URL = "https://api.github.com/graphql";
 
-
 const username = localStorage.getItem("username");
 
-const mytoken = "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";
+const mytoken = "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";
 
 const fetchUser = (username) => {
   fetch(URL, {
