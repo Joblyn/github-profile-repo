@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
     <title>Document</title>
 </head>
 <body id="gradient">
@@ -15,13 +15,17 @@
     <div class="container">
       <form id="form">
         <div class="group">
-          <label for="username_field">Username</label>
+          <label for="username_field">Username or email address</label>
           <input type="text" id="username_field" name="username" class="form-control"/>
         </div>
-        <input type="submit" name="submit" value="Submit" class="form_submit" />
+        <div>
+          <a class="form_submit" id="input_submit" href="profile.html">Submit</a>
+        </div>
       </form>
     </div>
   </main>
   <footer></footer>
+
+  <script type="text/Javascript" src="js/home.js"></script>
 </body>
 </html>
